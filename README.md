@@ -14,7 +14,7 @@ Secondly, you need a DNA Center and access the Rogue Management Dashboard. If yo
 
 **Do NOT modify the columns.** 
 
-![image-20210118202455355](https://tva1.sinaimg.cn/large/008eGmZEgy1gms4baqoktj329y0u07mc.jpg)
+![DNAC_Treats_version1](https://github.com/chenghit/findRogueAP/blob/main/DNAC_Treats_version1.jpg)
 
 
 
@@ -22,7 +22,7 @@ If you are using DNAC 2.x.x, explore to **Assurance > Rogue and aWIPS > Threats*
 
 **Again, do NOT modify the columns.** 
 
-![image-20210118202955814](https://tva1.sinaimg.cn/large/008eGmZEgy1gms4gfcwaxj32a10u0k53.jpg)
+![DNAC_Treats_version2](https://github.com/chenghit/findRogueAP/blob/main/DNAC_Treats_version2.jpg)
 
 
 
