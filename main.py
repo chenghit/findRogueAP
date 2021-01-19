@@ -82,14 +82,19 @@ def insertSsidName(df, _dict):
 
 
 @click.command()
-@click.option('--txt', help='txt或者log文件路径，包含WLC \
-"show advanced 802.11a summary"和"show rogue ap summary"结果。\
-File path of a .txt or .log file which includes the results of \
-"show advanced 802.11a summary" and "show rogue ap summary".')
-@click.option('--table', help='csv或者xls文件路径，DNAC RogueManagement Dashboard\
-报表，默认Columns复制即可，请勿自定义列。File path of a .csv or .xls file which includes \
-the contents copied from RogueManagement Dashboard on DNAC. \
-Do NOT modify columns on DNAC!')
+@click.option('--txt', help='''
+txt或者log文件路径，包含WLC "show advanced 802.11a summary"
+和"show rogue ap summary"结果。\n
+File path of a .txt or .log file which includes the results of
+"show advanced 802.11a summary" and "show rogue ap summary".
+''')
+@click.option('--table', help='''
+csv或者xls文件路径，DNAC RogueManagement Dashboard报表，默认
+Columns复制即可，请勿自定义列。\n
+File path of a .csv or .xls file which includes the contents 
+copied from RogueManagement Dashboard on DNAC. 
+Do NOT modify the columns on DNAC!
+''')
 @click.option('--version', default=1,
               help='DNAC main version number. 1 or 2. Default is 1.',
               type=int)
